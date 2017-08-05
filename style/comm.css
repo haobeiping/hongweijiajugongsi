@@ -1,0 +1,26 @@
+a:active{
+ text-decoration:none;
+} 
+#header{
+	height: 110px;
+}
+#header-main{
+	height: 100%;
+}
+#header-main .logo_box{
+	float: left;
+}
+#header-main .logo_box .logo_photo{
+	width: 100px;
+	height: 100px;
+}
+#header-main .logo_box .logo_font{
+	width: 200px;
+	line-height: 100px;
+}
+#nav ul li a{
+	letter-spacing: 2px;
+}
+#nav ul li:hover{
+	cursor: pointer;
+}

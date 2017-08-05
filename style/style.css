@@ -1,92 +1,15 @@
-*{box-sizing: border-box;}
-body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0}body,button,input,select,textarea{font:12px/1.5 tahoma,arial,"\5b8b\4f53";*line-height:1.5;-ms-overflow-style:scrollbar}h1,h2,h3,h4,h5,h6{font-size:100%}address,cite,dfn,em,var{font-style:normal}code,kbd,pre,samp{font-family:courier new,courier,monospace}small{font-size:12px}ul,ol{list-style:none}a{text-decoration:none}a:hover{text-decoration:underline}sup{vertical-align:text-top}sub{vertical-align:text-bottom}legend{color:#000}fieldset,img{border:0}button,input,select,textarea{font-size:100%}table{border-collapse:collapse;border-spacing:0}
-a {
-	text-decoration: none;
+#header #nav-inner .nav-sub{
+	float:left; width:40%;
+	 height:100%; 
+	 background:#f7f6f4;
 }
-header{
-	height: 120px;
-	box-shadow: 0 1px 5px 2px rgba(0,0,0,0.1);
-}
-.head{
-	box-shadow: 0 0px 5px 0px rgba(0,0,0,0.1);
-	line-height: 80px;
-	width: 100%;
-	background-color: #fff;
 
-}
-.head .logo_box{
-	float: left;
-	position: relative;
-	padding: 6px;
-	width: 30%;
-	height: 100px;
-}
-.head .logo{
-	width:30%;
-	height: 100px;
-}
-.head .logo-font{
-	top: 30px;
-	position: absolute;
-	width: 50%;
-	line-height: 80px;
-}
-.head .nav {
-	line-height: 120px;
-	margin-right: 10%;
-	float: right;
-}
-.head .nav ul{
-	position: relative;
-}
-.head .nav ul li{   
-	position: relative; 
-	margin: 0 50px;
-	float: left;
-}
-.head .nav ul li a{
-	font-family: "微软雅黑";
-	font-size: 18px;
-	color: #666;
-	letter-spacing: 3px;
-}
-.cont{
-	height: 280px;
-}
-.hid{
-    border-top: 1px solid #E8E8E8;
+#header #nav-inner .nav-pic{
+	float:left;
+	width:60%;
 	height:100%;
-	width: 100%;
 }
-.hid .left_box{
-	position: relative;
-	float: left;
-	width: 40%;
+#header #nav-inner .nav-pic img{
 	height:100%;
-	background-color: #F7F6F4;
-}
-.hid .left_title{
-	width: 30%;
-	position: absolute;
-	right: 50px;
-	top: 20px;
-}
-.hid .left_title ul li{
-	padding: 10px;
-	float: left;
-}
-.hid .left_title ul li a{
-	font-size: 16px;
-	font-family: "Micosoft Yahei";
-	color: #666;
-}
-.hid .right_box{
-	float: right;
-	width: 60%;
-	height: 100%;
-	background-color: #fff;
-}
-.hid .right_box img{
-	height: 100%;
 	width: 100%;
 }
