@@ -1,5 +1,8 @@
 a:active{
  text-decoration:none;
+}
+figcaption{
+	top：0
 } 
 #header{
 	height: 110px;
@@ -23,4 +26,7 @@ a:active{
 }
 #nav ul li:hover{
 	cursor: pointer;
+}
+#nav-inner{
+	display: none;
 }

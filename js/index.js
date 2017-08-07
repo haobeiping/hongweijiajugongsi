@@ -71,5 +71,18 @@ $(function(){
 	$('#prev').on('click', function(){
 		toggle(-1);
 	});
+
+	$('#prev').mouseover(function(){
+		$('#prev').css('width','80px');
+	});
+	$('#prev').mouseout(function(){
+		$('#prev').css('width','50px');
+	});
+	$('#next').mouseover(function(){
+		$('#next').css('width','80px');
+	});
+	$('#next').mouseout(function(){
+		$('#next').css('width','50px');
+	});
 });
 	
