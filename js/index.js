@@ -84,5 +84,25 @@ $(function(){
 	$('#next').mouseout(function(){
 		$('#next').css('width','50px');
 	});
+
+
+	var $notice=$('#listbox')
+		setInterval(function(){
+			$notice.animate({
+				top:'-200px'
+			},300,function(){
+				$notice.append($notice.children().first());
+				$notice.css('top',0);
+			})
+		},3000)
+
+	
+		$('#about-brand-tab').find('li').on('click',function(){
+			$(this).addClass('act').siblings().removeClass();
+			$('#about-brand-con').find('li').stop().hide().eq($(this).index()).fadeIn();
+		}).eq(0).trigger('click');
+
+
+
 });
 	

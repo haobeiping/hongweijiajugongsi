@@ -1,0 +1,212 @@
+.banner{position:relative; width:100%; height:600px; padding-bottom:65px; overflow:hidden;}
+.banner a{display:block; height:100%;}
+.swiper-wrapper{position:relative; width:100%; height:100%;}
+.swiper-slide{float:left; height:100%; background-repeat:no-repeat; background-position:center center; background-size:cover;}
+.swiper-pagination{position:absolute; bottom:40px; left:0; width:100%; height:10px; text-align:center;}
+.swiper-pagination .swiper-pagination-bullet{display:inline-block; height:5px; width:5px; margin:0 12px; border:1px solid #000; background:transparent; cursor:pointer; -webkit-transition:0.3s; -moz-transition:0.3s; transition:0.3s;}
+.swiper-pagination .swiper-pagination-bullet-active{background:#000;}
+
+
+.product-type{width:100%; max-width:1600px; margin:auto; overflow:hidden;}
+.product-type li{position:relative; float:left; width:16.625%; padding-top:15%; background:#f1f0ed; -webkit-transition:0.3s; -moz-transition:0.3s; transition:0.3s;}
+.product-type li:nth-of-type(2n){background:#f8f7f5;}
+.product-type li:before{content:''; position:absolute; top:0; right:0; width:1px; height:100%; background:#fff;}
+.product-type li:last-of-type:before{display:none;}
+.product-type li a{position:absolute; top:0; right:0; bottom:0; left:0;}
+
+.product-type li i{position:absolute; top:50%; left:50%; width:70px; height:70px; margin:-35px 0 0 -35px; background:url(../img/pro_type.png) no-repeat; -webkit-transition:0.3s; -moz-transition:0.3s; transition:0.3s;}
+.product-type li.t1 i{background-position:0 0;}
+.product-type li.t2 i{background-position:0 -70px;}
+.product-type li.t3 i{background-position:0 -140px;}
+.product-type li.t4 i{background-position:0 -210px;}
+.product-type li.t5 i{background-position:0 -280px;}
+.product-type li.t6 i{background-position:0 -350px;}
+.product-type li b{position:absolute; top:50%; left:50%; width:130px; height:130px; margin:-65px 0 0 -65px; border-radius:50%; background:#fff; box-shadow:inset 0 0 0 0 #f1e3d2; opacity:0; -webkit-transition:0.3s; -moz-transition:0.3s; transition:0.3s; -webkit-transform:scale(0); -moz-transform:scale(0); transform:scale(0);}
+.product-type span{position:absolute; bottom:13%; left:0; width:100%; text-align:center; color:#333; -webkit-transition:0.3s; -moz-transition:0.3s; transition:0.3s;}
+
+.product-type li:hover{background:#eeddc7;}
+.product-type li:hover b{box-shadow:inset 0 0 0 8px #f1e3d2; opacity:1; -webkit-transform:scale(1); -moz-transform:scale(1); transform:scale(1);}
+.product-type li:hover span{color:#7e4430;}
+
+
+.furniture-plan{width:100%; max-width:1600px; *width:1600px; margin:3.5% auto;}
+.furniture-plan h2{color:#333; font-size:26px; text-align:center;}
+.furniture-plan section{margin-top:1.8%; overflow:hidden;}
+.furniture-system, .furniture-summary{float:left; width:50%; height:640px;}
+.furniture-system{position:relative;}
+.furniture-system:after{content:''; position:absolute; top:0; right:0; width:1px; height:100%; background:#fff;}
+.furniture-system a{position:absolute; top:0; right:0; bottom:0; left:0; background-repeat:no-repeat; background-position:center bottom; background-size:cover;}
+.furniture-slide{position:relative; height:320px; overflow:hidden;}
+.furniture-wrapper{position:relative; width:100%; height:100%;}
+.furniture-node{position:relative; float:left; width:100%; height:100%; background-repeat:no-repeat; background-position:center center; background-size:cover;}
+.furniture-prev{position:absolute; top:50%; left:10px; width:25px; height:46px; margin-top:-23px; border:none; background:url(../img/sprite.png) no-repeat -74px 0; cursor:pointer;}
+.furniture-next{position:absolute; top:50%; right:10px; width:25px; height:46px; margin-top:-23px; border:none; background:url(../img/sprite.png) no-repeat -99px 0; cursor:pointer;}
+
+.furniture-contact{position:relative; height:320px; background:#5da1c1; text-align:center;}
+.furniture-contact:after{content:''; position:absolute; top:0; left:0; width:100%; height:1px; background:#fff;}
+.furniture-contact b, .furniture-contact figcaption{float:left; width:50%; height:100%;}
+.furniture-contact b{background-position:center center; background-repeat:no-repeat; background-size:cover;}
+.furniture-contact figcaption img{display:block; margin:10% auto 14%; max-width:90%;}
+.furniture-contact figcaption a{display:block; width:40%; height:50px; margin:auto; background:#fff; border-radius:3px; text-align:center; line-height:50px; color:#5da1c1; font-size:16px;}
+.furniture-contact figcaption p{margin:5% 0 0; color:#fff;}
+.furniture-contact figcaption h3{color:#fff; font-size:18px;}
+
+
+.about{width:100%; max-width:1600px; *width:1600px; margin:3.5% auto 0;}
+.about h2{color:#333; font-size:26px; text-align:center;}
+.about section{margin-top:1.8%; overflow:hidden;}
+.about .about-left, .about .about-right{float:left; width:50%;}
+.about .about-brand{height:370px; background:#d26b6b; color:#fff;}
+.about .about-brand ul{width:87.5%; margin:auto;}
+#about-brand-tab{padding-top:48px; overflow:hidden;}
+#about-brand-tab li{float:left; width:130px; height:40px; border:1px solid #e09898; background:#e08686; color:#fff; text-align:center; line-height:40px; cursor:pointer; -webkit-transition:0.3s; -moz-transition:0.3s; transition:0.3s;}
+#about-brand-tab li.act{border-color:#fff; background:#fff; color:#333;}
+#about-brand-con{position:relative; height:160px; margin-top:50px; overflow:hidden;}
+#about-brand-con li{display:none; position:absolute; top:0; left:0; width:100%; height:100%;}
+.brand-more{display:block; width:87.5%; margin:auto; color:#fff; -webkit-transition:0.3s; -moz-transition:0.3s; transition:0.3s;}
+
+.about-store{height:330px; margin-top:1px; background:url(../img/about_store_bg.jpg) no-repeat; background-size:cover;}
+.about-store h3{width:87.5%; margin:auto; padding:10% 0 3%; color:#333; font-size:22px;}
+.about-store form{width:87.5%; margin:auto;}
+.about-store form select{width:30%; height:40px; border:2px solid #d26b6b; color:#a4002c;}
+.about-store form input[type="submit"]{width:30%; height:40px; color:#fff; background:#d26b6b; border:none;}
+
+.about-right{position:relative;}
+.about-right:after{content:''; position:absolute; top:0; left:0; width:1px; height:100%; background:#fff;}
+.about-right picture{display:block; height:370px; background:url(../img/about_pic.jpg) no-repeat center; background-size:cover;}
+
+.about-news{height:330px; margin-top:1px; overflow:hidden;}
+.about-news-hot{float:left; width:40.875%; height:100%;}
+.about-news-hot h3{margin:10% 0; color:#666; font-size:18px; text-align:center;}
+.about-news-hot ul{width:75%; margin:auto;}
+.about-news-hot ul li{position:relative; line-height:26px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+.about-news-hot ul li:before{content:''; display:inline-block; width:4px; height:4px; border-radius:50%; margin-right:10px; background:#ddd; vertical-align:middle;}
+.news-more{display:inline-block; margin-top:12%; padding:5px 8px; background:#d26b6b; border-radius:3px; color:#fff; margin-left:10%; -webkit-transition:0.3s; -moz-transition:0.3s; transition:0.3s;}
+
+.about-special{position:relative; float:left; width:59.125%; height:100%; overflow:hidden;}
+.about-special h3{position:absolute; bottom:15px; left:30px; z-index:2; color:#fff; font-size:18px;}
+.special-wrapper{position:relative; width:100%; height:100%;}
+.special-node{position:relative; float:left; width:100%; height:100%; background-repeat:no-repeat; background-position:center center; background-size:cover;}
+.special-node a{display: block; height: 100%;}
+.special-pagination, .furniture-pagination{position:absolute; bottom:10px; left:0; width:100%; text-align:right;}
+.furniture-pagination{text-align:center;}
+.special-pagination span, .furniture-pagination span{display:inline-block; width:10px; height:10px; border:2px solid #fff; border-radius:50%; margin:0 10px; background:#fff; cursor:pointer; -webkit-tranition:0.3s; -moz-transition:0.3s; transition:0.3s;}
+.special-pagination .swiper-pagination-bullet-active, .furniture-pagination .swiper-pagination-bullet-active{background:transparent;}
+.m-find-store{display:none; position:relative; width:100%; padding-top:42.66666666%; margin:42px auto; background: url(../img/m_find_store_bg.jpg) 0 0 / cover no-repeat; border-radius:3px; color:#fff; line-height:42px; text-align:center; font-size:16px;}
+.m-find-store span{position:absolute; top:50%; left:0; width:100%; height:24px; margin-top:-12px; line-height:24px;}
+.m-find-store i{vertical-align:-1px}
+
+
+
+/*------------------------------------------------------------*/
+
+
+
+@media (max-width: 1280px) and (min-width: 1079.5px){
+.product-type li b{width:110px; height:110px; margin:-55px 0 0 -55px;}
+.product-type li i{-webkit-transform:scale(0.8); -moz-transform:scale(0.8); transform:scale(0.8);}
+.product-type span{bottom:8%;}
+
+.furniture-system, .furniture-summary{height:480px;}
+.furniture-slide{height:255px;}
+.furniture-contact{height:225px;}
+.furniture-contact figcaption img{width:75%; margin:12% auto;}
+.furniture-contact figcaption a{height:40px; line-height:40px;}
+
+.about .about-brand{height:280px;}
+#about-brand-tab{padding-top:20px;}
+#about-brand-con{margin-top:30px; height:150px; font-size:13px;}
+.about-store{height:250px;}
+.about-right picture{height:280px;}
+.about-news{height:250px;}
+.about-news-hot h3{margin:5% 0;}
+.about-news-hot ul{width:82%; font-size:13px;}
+.news-more{font-size:12px;}
+
+
+}
+
+/*------------------------------------------------------------*/
+
+@media (max-width: 1079.5px) and (min-width: 767.5px){
+.banner{height:450px;}
+
+.product-type{max-width:960px;}
+.product-type li{width:33.33333%; padding-top:18%;}
+.product-type li b{width:110px; height:110px; margin:-55px 0 0 -55px;}
+.product-type li i{-webkit-transform:scale(0.8); -moz-transform:scale(0.8); transform:scale(0.8);}
+.product-type span{bottom:8%;}
+
+.furniture-plan{max-width:960px;}
+.furniture-system{width:100%; height:400px;}
+.furniture-system:after{display:none;}
+.furniture-summary{width:100%; height:600px; margin-top:1px;}
+.furniture-slide, .furniture-contact{height:300px;}
+.furniture-contact figcaption img{width:50%; margin:8% auto 12%;}
+.furniture-contact figcaption a{width:30%; height:38px; line-height:38px;}
+.furniture-contact figcaption p{margin:4% 0 0;}
+
+.about{max-width:960px;}
+.about .about-left, .about .about-right{width:100%;}
+.about .about-brand, .about-store, .about-right picture, .about-news{height:300px; margin-top:1px;}
+#about-brand-tab{padding-top:30px;}
+#about-brand-con{margin-top:30px;}
+.about-news-hot h3{margin:8% 0;}
+.news-more{margin-top:8%;}
+
+
+
+}
+
+/*------------------------------------------------------------*/
+
+
+@media (max-width: 767.5px){
+.banner{height:200px; padding-bottom:50px;}
+
+.product-type li{width:33.33333%; padding-top:30%;}
+.product-type li b{width:60px; height:60px; margin:-30px 0 0 -30px;}
+.product-type li i{-webkit-transform:scale(0.4); -moz-transform:scale(0.4); transform:scale(0.4);}
+.product-type span{bottom:5%; font-size:12px;}
+.product-type li:active{background:#eeddc7;}
+.product-type li:active b{box-shadow:inset 0 0 0 8px #f1e3d2; opacity:1; -webkit-transform:scale(1); -moz-transform:scale(1); transform:scale(1);}
+.product-type li:active span{color:#7e4430;}
+
+.furniture-plan{margin:5% auto;}
+.furniture-plan h2{font-size:18px;}
+.furniture-plan section{padding:10px; background:#f3f3f3;}
+.furniture-system{width:100%; height:240px;}
+.furniture-system:after{display:none;}
+.furniture-summary{width:100%; height:240px; margin-top:1px;}
+.furniture-slide{width:100%; height:128px;}
+.furniture-prev, .furniture-next{-webkit-transform:scale(.5); -moz-transform:scale(.5); transform:scale(.5);}
+.furniture-contact{height:112px;}
+.furniture-contact figcaption img{width:auto; height:34px; margin:20px auto 15px;}
+.furniture-contact figcaption a{width:50%; height:24px; line-height:24px; font-size:12px;}
+.furniture-contact figcaption p, .furniture-contact figcaption h3{display:none;}
+
+.about{box-sizing:border-box; padding:0 10px;}
+.about h2{font-size:18px;}
+.about .about-left, .about .about-right{width:100%;}
+.about .about-brand{height:270px;}
+#about-brand-tab{padding-top:14px;}
+#about-brand-tab li{-webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; width:50%;}
+#about-brand-con{margin-top:20px; font-size:12px;}
+.about-store{display:none;}
+.about-right picture{height:200px;}
+.about-news{height:auto;}
+.about-news-hot{width:100%; height:330px;}
+.about-news-hot h3{margin:20px 0; color:#333;}
+.about-news-hot ul{width:100%; background:#f9f9f9;}
+.about-news-hot ul li{position:relative; height:40px; padding:0 20px; line-height:40px; border-bottom:1px dotted #e3e3e3;}
+.about-news-hot ul li:before{position:absolute; top:18px; left:10px;}
+.about-news-hot ul li a{display:block; height:100%; color:#000;}
+.about-news-hot ul li:active{background:#fff;}
+.news-more{display:block; margin:10px auto 0; width:136px; height:36px; line-height:36px; padding:0; text-align:center;}
+
+.about-special{width:100%;}
+.about-special h3{position:static; margin:20px 0; color:#333; text-align:center;}
+.special-pagination span{width:8px; height:8px;}
+.special-wrapper{height:210px;}
+.m-find-store{display:block;}
+}

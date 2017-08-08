@@ -37,6 +37,7 @@
 	opacity: 0;
 }
 #photo img{
+	cursor: pointer;
 	width: 100%;
 }
 .wrapper{
@@ -211,4 +212,140 @@
 }
 .leader_logo ul li span:hover{
 	color: #7e4430;
+}
+.furniture_box{
+	overflow: hidden;
+    width: 100%;
+    max-width: 1600px;
+    margin: 3.5% auto;
+}
+.furniture_box p{
+    padding-bottom: 20px;
+	font-size:25px;
+	text-align: center;
+}
+.furniture_left{
+	position: relative;
+	width: 50%;
+	float: left;
+	height: 580px;
+}
+.furniture_left:after{
+	content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background: #fff;
+}
+.furniture_left a img{
+	width: 100%;
+	height: 100%;
+}
+.furniture_right{
+	position: relative;
+	float: left;
+	width: 50%;
+	height: 580px;
+}
+.furniture_right ul{
+	overflow: hidden;
+	position: relative;
+	top: 0px;
+}
+.furniture_right ul li{
+	height:100%;
+	overflow: hidden;
+}
+.furniture_right ul li a img{
+	width: 100%;
+}
+.furniture_left img:after{
+	content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    height: 100%;
+    background: #fff;
+}
+.about_left_one {
+	position: relative;
+	height: 400px;
+	padding: 30px;
+	background-color: #D26B6B;
+	width: 50%;
+	float: left;
+}
+
+.about_left_one ul li{
+	width: 130px;
+	text-align: center;
+	margin-left: 10px;
+	padding: 10px;
+	background-color: #fff;
+	float: left;
+}
+#about-brand-tab{
+	padding-top:48px; 
+	overflow:hidden;
+}
+#about-brand-tab li{
+	float:left; 
+	width:130px;
+	height:40px;
+	border:1px solid #e09898;
+	background:#e08686; 
+	color:#fff; 
+	text-align:center;
+	line-height:40px;
+	cursor:pointer; 
+	-webkit-transition:0.3s;
+	-moz-transition:0.3s; 
+	transition:0.3s;
+}
+#about-brand-tab li.act{
+	border-color:#fff; 
+	background:#fff;
+	 color:#333;
+}
+#about-brand-con{
+	position:relative;
+	height:160px;
+	margin-top:50px; 
+	overflow:hidden;
+}
+#about-brand-con li{
+	display:none;
+	position:absolute;
+	top:0; left:0;
+	width:100%; 
+	height:100%;
+}
+#about-brand-tab{
+	padding-top:20px;
+}
+#about-brand-con{
+	margin-top:30px; 
+	height:150px; 
+	font-size:13px;
+}
+.about-right{
+	float: left;
+	height: 370px;
+	width: 50%;
+}
+.about-right .right_content{
+	width: 100%;
+	height: 100%;
+}
+.about-right ul li{
+	float: left;
+	height: 100%;
+	width: 100%;
+}
+.about-right ul li img{
+	height: 100%;
+	width: 100%;
 }
