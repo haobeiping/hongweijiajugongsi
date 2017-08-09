@@ -407,5 +407,73 @@
 	position: absolute;
 	top: 50%;
 	left: 30%;
-
+}
+.title_keting{
+	width: 100%;
+	overflow: hidden;
+}
+.introduction{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	animation: downIn 0.8s 0.2s both;
+}
+.content_title{
+	overflow: hidden;
+	background:url(../images/keting_bg.jpg);
+	text-align: center;
+}
+.content_title h2{
+	line-height: 100px;
+	position: relative;
+	font-size: 24px;
+	letter-spacing: 5px;
+	font-family: "Microsoft YaHei";
+	animation: downIn 0.8s 0.2s both;
+}
+.left_box{
+	float: left;
+	width: 60%;
+}
+.left_box img{
+	width: 100%;
+}
+.right_box{
+	position: absolute;
+	right: 0;
+	height: 100%;
+	background-color: #fff;
+	width: 40%;
+	float: left;
+}
+.title_font{
+	
+	padding:20px;
+}
+.right_warrper{
+	animation: fadeIn 0.8s 0.2s both;
+	padding: 30px;
+}
+.right_warrper p{
+	font-size:20px;
+	color: #E08787;
+}
+.right_warrper .title_font span{
+	line-height: 70px;
+	font-size: 16px;
+	color: #E08787;
+	padding-bottom: 20px;
+}
+.right_warrper .title_font{
+	font-size: 16px;
+	border-bottom: 1px solid #E08787;
+}
+.title_font-two{
+	position: relative;
+}
+.title_font-two a span{
+	position: absolute;
+	left: 10px;
+	top: 40px;
+	animation: leftIn 0.8s 0.2s both;
 }
